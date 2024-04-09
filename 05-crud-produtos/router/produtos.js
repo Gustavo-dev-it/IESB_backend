@@ -72,7 +72,7 @@ const id = req.params.id
 const index = listaProdutos.findIndex(produto => produto.id == id) 
 
 const novosDados = req.body
-
+  
 const produtoAlterado = {
     id: id,
     nome: novosDados.nome,
